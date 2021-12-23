@@ -45,7 +45,7 @@ function calculateSpeed() {
     if (currentLocation.match(destination[i].name)) {
       // speed = distance/time
       speed = prevDistance / time.value;
-      speedometer.textContent = `${Math.round(speed)} km/hr`;
+      speedometer.textContent = `The speed is ${Math.round(speed)} km/hr`;
     }
   }
 }
